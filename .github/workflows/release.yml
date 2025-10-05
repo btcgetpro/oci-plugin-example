@@ -67,18 +67,6 @@ jobs:
           echo "img_checksum=$CHECKSUM" >> $GITHUB_OUTPUT
           echo "Rootfs checksum: $CHECKSUM"
 
-      - name: Update install manifest
-        run: |
-          jq --arg version "${{ steps.version.outputs.version }}" \
-             --arg checksum "${{ steps.checksum.outputs.img_checksum }}" \
-             --arg url "https://github.com/${{ github.repository }}/releases/download/${{ steps.version.outputs.tag }}/${{ env.PLUGIN_NAME }}-rootfs.img" \
-             '.version = $version | .rootfs.checksum = $checksum | .rootfs.url = $url' \
-             manifest/${{ env.PLUGIN_NAME }}.json > manifest/${{ env.PLUGIN_NAME }}.json.tmp
-          mv manifest/${{ env.PLUGIN_NAME }}.json.tmp manifest/${{ env.PLUGIN_NAME }}.json
-
-          echo "Updated install manifest:"
-          cat manifest/${{ env.PLUGIN_NAME }}.json
-
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
