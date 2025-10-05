@@ -1,0 +1,23 @@
+# Build artifacts
+*.img
+nginx.img
+
+# Temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+
+# Downloaded/cached images
+*.tar
+*.tar.gz
+
+# Fledge build artifacts
+*.img
+*.manifest.json
+rootfs.img
+*-rootfs.img
