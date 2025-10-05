@@ -8,7 +8,7 @@
   "image": "nginx:latest",
   "image_digest": "sha256:887a5a497ad28b83b9868d346db1502fab82b8df7f4e0fccc15c200800429b20",
   "rootfs": {
-    "url": "https://github.com/volantvm/oci-plugin-example/releases/download/v0.1.0/nginx-rootfs.img",
+    "url": "https://github.com/volantvm/oci-plugin-example/releases/download/v0.1.0/nginx.img",
     "checksum": ""
   },
   "resources": {
