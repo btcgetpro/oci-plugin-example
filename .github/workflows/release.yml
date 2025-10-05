@@ -77,7 +77,6 @@ jobs:
 
             **Base Image:** nginx:alpine
             **Rootfs Checksum:** `${{ steps.checksum.outputs.img_checksum }}`
-            **Rootfs Size:** ~64MB (ext4)
 
             ### Install this plugin:
 
@@ -105,15 +104,3 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit updated files
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Action"
-          git add manifest/${{ env.PLUGIN_NAME }}.json README.md
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update manifest and README for release ${{ steps.version.outputs.tag }}"
-            git push origin HEAD:main || git push origin HEAD:master || echo "Could not push to main/master branch"
-          fi
