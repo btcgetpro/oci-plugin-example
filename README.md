@@ -343,6 +343,18 @@ sudo fledge build
 
 ---
 
+## Manage Artifacts via API
+
+Volant exposes a plugin artifacts API for programmatic management of this plugin's rootfs image:
+
+- List: `GET /api/v1/plugins/nginx/artifacts?version=v1`
+- Upsert: `POST /api/v1/plugins/nginx/artifacts` (JSON body with `version`, `artifact_name`, `kind`, `source_url`, `checksum`, `format`, `local_path`, `size_bytes`)
+- Delete: `DELETE /api/v1/plugins/nginx/artifacts?version=v1`
+
+See the Volant OpenAPI at `/openapi` for full schema.
+
+---
+
 ## License
 
 This plugin is licensed under the **Apache License 2.0** - See [LICENSE](LICENSE) for details.
